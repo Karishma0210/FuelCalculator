@@ -1,0 +1,44 @@
+
+/* 
+    Created on : Apr 6, 2019, 12:12:46 PM
+    Author     : Karishma Sukhwani
+*/
+
+.root{
+    -fx-spacing: 500;
+    -fx-background-color: antiquewhite; 
+    
+    -fx-border-color: brown;
+}
+.label{
+    -fx-font-weight: bold;
+    -fx-font-family: "Franklin Gothic Demi";
+}
+/*.ChoiceBox{
+    -fx-background-color: coral;
+}*/
+#textFieldErr{
+    -fx-background-image: url("file:///G:/kDoc/mdx/CCE1010_java/v2/alsetFuelCalc/picture/err.png");
+    -fx-background-size: 20px 20px; 
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right center;
+}
+
+.headingLabel{
+    -fx-text-alignment: center;
+    -fx-text-fill: coral;
+    -fx-font-size: 22;
+    -fx-font-family: "Franklin Gothic Demi";
+    -fx-font-weight: bold;
+}
+.button{
+    -fx-font-family: "Franklin Gothic Demi";
+    -fx-font-weight: Bold;
+    -fx-text-fill: black;
+    -fx-background-color: coral;
+    -fx-border-color: khaki;
+}
+.button:hover{
+   -fx-background-color: linear-gradient(coral,brown); 
+   -fx-cursor: hand;
+}
