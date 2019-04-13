@@ -30,16 +30,15 @@ public class sever {
             ArrayList<String> fuelData = new ArrayList<>(); //for storing values of files
             while ((line = buffR.readLine()) != null) {     //read line of file until line becomes null(go line by line in to file)
                     fuelData.add(line); //add read single value to arraylist of fuelData
-            }
+		}
+		strOut.writeUTF(String.valueOf(fuelData));
+		/*DataInputStream stringInp = new DataInputStream(new FileInputStream(connectionSocket.getOutputStream()));
+		String line;
+		while ((line = buffR.readLine()) != null) {     //read line of file until line becomes null(go line by line in to file)
+			fuelData.add(line); //add read single value to arraylist of fuelData
+		}*/
             
-            strOut.writeUTF(String.valueOf(fuelData));
-            /*DataInputStream stringInp = new DataInputStream(new FileInputStream(connectionSocket.getOutputStream()));
-            String line;
-            while ((line = buffR.readLine()) != null) {     //read line of file until line becomes null(go line by line in to file)
-                fuelData.add(line); //add read single value to arraylist of fuelData
-            }*/
-            
-        }
-    }
+	}
+}
     
 }
