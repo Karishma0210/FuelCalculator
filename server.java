@@ -15,7 +15,7 @@ public class sever {
      * @param args the command line arguments
      * @throws java.io.IOException
      */
-    public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException {
         
         ServerSocket welcomeSocket = new ServerSocket(6789);
         System.out.println("Server Ready!!!");
@@ -39,6 +39,4 @@ public class sever {
 		}*/
             
 	}
-}
-    
 }
